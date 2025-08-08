@@ -1,5 +1,6 @@
 class Solution {
 public:
+     int a;
     int longestConsecutive(vector<int>& nums) {
         int n = nums.size();
         if(nums.size() == 0){
@@ -26,3 +27,4 @@ public:
       return longest ;
     }
 };
+
