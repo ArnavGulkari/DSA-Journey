@@ -9,7 +9,7 @@ public:
                 break;
             }
         }
-        int r;
+   
 
         if( ind == -1){
             reverse(nums.begin(), nums.end());
@@ -26,4 +26,5 @@ public:
         
     }
 };
+
 
